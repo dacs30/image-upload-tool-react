@@ -29,7 +29,7 @@ function ModalCropper(props: any) {
                     viewMode={1}
                     minCropBoxHeight={10}
                     minCropBoxWidth={10}
-                    checkOrientation={false} // https://github.com/fengyuanchen/cropperjs/issues/671
+                    checkOrientation={false}
                     responsive={true}
                     autoCropArea={1}
                 />
