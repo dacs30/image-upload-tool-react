@@ -63,8 +63,10 @@ function ImageUpload() {
                         <Form.Control ref={inputRef} onChange={handleChange} type="file" />
                     </Form.Group>
                 </Row>
-                <Row className='justify-content-md-center'>
-                    <Button className='w-25' variant="primary" onClick={resetImage}>Reset</Button>
+                <Row className='justify-content-center'>
+                    <div className='text-center'>
+                        <Button className='w-25' variant="primary" onClick={resetImage}>Reset</Button>
+                    </div>
                 </Row>
             </Container>
         </div>
